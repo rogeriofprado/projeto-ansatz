@@ -1,0 +1,24 @@
+.topnav {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background: var(--verde-degrade);
+}   
+
+.topnav a {
+    float: left;
+    display: block;
+    color: var(--branco);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transform: 0.3s;
+}
+
+.topnav a:hover {
+    font-size: 17px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: rgb(186, 208, 62);
+    transition: color 0.3s;
+}

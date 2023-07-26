@@ -1,0 +1,51 @@
+footer {
+    background: var(--azul-degrade-footer);
+    color: var(--branco);
+    padding: 3rem;
+    margin: 0rem;
+}
+
+footer .link {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.csitea {
+    display: flex;
+    align-items: center;
+}
+
+.linkedin {
+    display: flex;
+}
+
+.collaborators {
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    margin: 1rem;
+    color: var(--branco);
+    text-decoration: none;
+    transform: 0.2s;
+}
+
+footer a:hover {
+    font-size: 17px;
+    color: var(--cor-do-logo);
+    transition: color 0.2s;
+}
+
+footer img {
+    width: 50px;
+    margin: 0 0.3rem 0 3rem;
+}
+
+.credits {
+    font-size: 12px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

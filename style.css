@@ -1,0 +1,55 @@
+@import url(assets/header.css);
+@import url(assets/topnav.css);
+@import url(assets/footer.css);
+@import url(assets/contact.css);
+@import url(assets/about.css);
+@import url(assets/home.css);
+
+:root {
+    --font-principal: 'Roboto Condensed';
+    --font-secundaria: sans-serif;
+    --cor-do-logo: #00BF00;
+    --cor-de-fundo: #F0F9FF;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --verde-claro:#68ef68;
+    --azul-degrade: linear-gradient(45deg, #090628, #17034b);    
+    --azul-degrade1: linear-gradient(97.54deg, #002F52 35.49%, #326589, 165.37%);
+    --azul-degrade2: linear-gradient(270deg, #031827 35.49%, #bccad3);
+    --verde-degrade: linear-gradient(45deg, #1b921b, #00BF00);
+    --azul-degrade-footer: linear-gradient(45deg, #090628, #17034b);
+    --cor-degrade-fundo: linear-gradient(+90deg, #e7eef3, #acc2d1);
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    background: var(--cor-degrade-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 100;
+}
+
+h1 {
+    color: var(--branco);
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 3.85px;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 10px;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}

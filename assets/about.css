@@ -1,0 +1,39 @@
+.mapa {
+    background: var(--cor-de-fundo);  
+}
+
+.titulo-principal, h6 {
+	padding: 20px;
+    text-align: center;
+    color: var(--preto);
+}
+
+.titulo-principal {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+h6 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.informations {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+a {
+    text-decoration: none;
+    transform: 0.3s;
+}
+
+a:hover {    
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: var(--cor-do-logo);
+    transition: color 0.3s;
+}
