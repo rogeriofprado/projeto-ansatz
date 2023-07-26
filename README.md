@@ -1,2 +1,1 @@
-# projeto-Ansatz-pag
-# projeto-Ansatz-pag
+Esse é meu primeiro projeto, desenvolvi uma página para AnsatzHub, sem pretenção de subir a mesma, é somente para fins didáticos e aprendizado de Html5 e css3, e de uso do GitHub. Ainda esta em desenvolvimento que vou modificando e atualizando conforme vou progredindo nos estudos. Toda sugestção e crítica será muito bem vinda (fique a vontade e use sem moderação)!  
